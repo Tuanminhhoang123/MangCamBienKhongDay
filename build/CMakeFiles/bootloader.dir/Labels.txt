@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/Tai_lieu/EE4552/gateway/build/CMakeFiles/bootloader
+D:/Tai_lieu/EE4552/gateway/build/CMakeFiles/bootloader.rule
+D:/Tai_lieu/EE4552/gateway/build/CMakeFiles/bootloader-complete.rule
+D:/Tai_lieu/EE4552/gateway/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/Tai_lieu/EE4552/gateway/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/Tai_lieu/EE4552/gateway/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/Tai_lieu/EE4552/gateway/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/Tai_lieu/EE4552/gateway/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/Tai_lieu/EE4552/gateway/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/Tai_lieu/EE4552/gateway/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

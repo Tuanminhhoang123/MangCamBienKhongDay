@@ -1,0 +1,14 @@
+Command: ninja all
+[1/6] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Tai_lieu\EE4552\gateway\build\bootloader && "D:\Tep chuong trinh\.espressif\tools\python_env\v6.0.1\venv\Scripts\python.exe" "D:/Tep chuong trinh/.espressif/v6.0.1/esp-idf/components/partition_table/check_sizes.py" --offset 0x8000 bootloader 0x1000 D:/Tai_lieu/EE4552/gateway/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6610 bytes. 0x9f0 bytes (9%) free.
+[2/6] No install step for 'bootloader'
+[3/6] Completed 'bootloader'
+[4/6] Linking CXX executable gateway.elf
+FAILED: gateway.elf 
+C:\WINDOWS\system32\cmd.exe /C "cd . && "D:\Tep chuong trinh\.espressif\tools\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin\xtensa-esp32-elf-g++.exe" @"D:/Tai_lieu/EE4552/gateway/build/toolchain/cxxflags" @"D:/Tai_lieu/EE4552/gateway/build/toolchain/ldflags" -Wl,--cref -Wl,--defsym=IDF_TARGET_ESP32=0 -Wl,--Map=D:/Tai_lieu/EE4552/gateway/build/gateway.map -Wl,--no-warn-rwx-segments -Wl,--orphan-handling=error -fno-lto -Wl,--gc-sections -Wl,--warn-common -T esp32.peripherals.ld -T esp32.rom.ld -T esp32.rom.api.ld -T esp32.rom.libgcc.ld -T esp32.rom.libc-funcs.ld -T memory.ld -T sections.ld -u include_esp_phy_override @CMakeFiles\gateway.elf.rsp -o gateway.elf && cd ."
+D:/Tep chuong trinh/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/ld.exe: esp-idf/freertos/libfreertos.a(app_startup.c.obj):(.literal.main_task+0x24): undefined reference to `app_main'
+D:/Tep chuong trinh/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/ld.exe: esp-idf/freertos/libfreertos.a(app_startup.c.obj): in function `main_task':
+D:/Tep chuong trinh/.espressif/v6.0.1/esp-idf/components/freertos/app_startup.c:190:(.text.main_task+0x92): undefined reference to `app_main'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.

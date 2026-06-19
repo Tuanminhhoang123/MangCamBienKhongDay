@@ -1,0 +1,7 @@
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
+"-specs=D:/Tai_lieu/EE4552/gateway/build/specs/picolibc.specs"
+-fno-rtti
