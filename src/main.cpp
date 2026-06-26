@@ -40,12 +40,12 @@ QueueHandle_t xLoRaQueue = NULL;
 // ==========================================
 // 2. ĐỊNH NGHĨA PHẦN CỨNG SƠ ĐỒ CHÂN SPI (ESP32)
 // ==========================================
-#define LORA_SCK_PIN    18
-#define LORA_MISO_PIN   19
-#define LORA_MOSI_PIN   23
-#define LORA_CS_PIN     5    // Chân chọn chip NSS / CS
-#define LORA_RST_PIN    14   // Chân Reset cứng của SX1278
-#define LORA_DIO0_PIN   2    // Chân ngắt báo tín hiệu IRQ từ SX1278
+#define LORA_SCK_PIN    31
+#define LORA_MISO_PIN   30
+#define LORA_MOSI_PIN   29
+#define LORA_CS_PIN     28    // Chân chọn chip NSS / CS
+#define LORA_RST_PIN    12   // Chân Reset cứng của SX1278
+#define LORA_DIO0_PIN   11    // Chân ngắt báo tín hiệu IRQ từ SX1278
 
 // ==========================================
 // 3. TASK 1: XỬ LÝ LORA (CHẠY TRÊN CORE 0)
